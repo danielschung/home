@@ -7,7 +7,7 @@
 }
 
 #header {
-    width:500px;
+    width:570px;
 }
 
 body    {
@@ -76,6 +76,7 @@ br  {
 #hey-im-daniel  {
     position:relative;
     top:60%;
+    width:100%;
     
 }
 
@@ -165,10 +166,36 @@ br  {
     line-height:1.7;
 }
 
+#copyright  {
+    text-align:center;
+    margin:80px auto 10px auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color:black;
+}
+
 @media screen and (max-width:1000px) {
     #left-div   {
         width:100%;
         position:relative;
+        padding:0px;
+    }
+    
+    #hey-im-daniel  {
+        top:50%;
+        padding:0px;
+    }
+    
+    h1  {
+        font-size:100px;
+        top:
+    }
+    
+    #hey-im-daniel  p   {
+        font-size:24px;
+        max-width:700px;
+
     }
     
     #right-div  {
@@ -178,19 +205,70 @@ br  {
     }
     
     .container  {
-        top:40px;
+        top:50px;
+    }
+    
+    .text  {
+        font-size:20px;
+        min-width:100%;
+    }
+    
+    h2  {
+        font-size:29px;
+    }
+    
+    #contact    {
+        top:50%;
+        
+    }
+    
+    #social-container    {
+        top:53%;
     }
      
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:742px) {
+    #left-div   {
+        height:930px;
+        
+    }
+    
+}
+
+@media screen and (max-width:667px) {
+    #left-div   {
+        height:1200px;
+        top:-200px;
+        
+    }
+    
+    #right-div  {
+        top:-200px;
+    }
+    
+}
+
+@media screen and (max-width:583px) {
+    #left-div   {
+        height:1270px;
+    }
+    
     h2  {
-        font-size:20px;
-        top:4px;
+        font-size:24px;
+        top:6px;
     }
 
     .headercontainer    {
         top:4px;   
     }
+    
+}
+
+@media screen and (max-width:507px) {
+    #left-div   {
+        height:1370px;
+    }
+    
 }
 
