@@ -30,7 +30,7 @@ a   {
 
 h1  {
     font-family:'Josefin Sans', sans-serif;
-    font-size:50px;
+    font-size:45px;
     font-weight:100;
     line-height:1.2;
     text-align:center;
@@ -40,7 +40,7 @@ h1  {
 
 h2  {
     font-family:'Josefin Sans', sans-serif;
-    font-size:25px;
+    font-size:23px;
     text-align:right;
     position:relative;
 }
@@ -80,20 +80,20 @@ br  {
     
 }
 
-#heyimdaniel,    p   {
+#hey-im-daniel    p   {
     font-family:'Raleway', sans-serif;
-    font-size:16px;
+    font-size:14.4px;
     text-align:center;
     color:white;
-    max-width:400px;
+    max-width:360px;
     margin:0 auto;
     padding:10px 40px;
     line-height:1.7;
 }
 
 #contact    {
-    width:150px;
-    margin:22px auto 5px auto;
+    width:134px;
+    margin:18px auto 5px auto;
     position:relative;
     top:59%;
     background-color:rgba(255,255,255,0.4);
@@ -110,10 +110,10 @@ br  {
 
 #contact_text   {
     font-family:'Josefin Sans', sans-serif;
-    font-size:19px;
+    font-size:17px;
     text-align:center;
     color:white;
-    padding:7px 0px;
+    padding:12px 0px;
 }
 
 #social-container   {
@@ -125,8 +125,8 @@ br  {
 }
 
 .social {
-    width:16px;
-    margin:5px;
+    width:15px;
+    margin:4px;
 }
 
 #right-div  {
@@ -140,7 +140,7 @@ br  {
 }
 
 .headercontainer    {
-    width:24%;
+    width:22%;
     display:inline-block;
     text-align:center;
     position:relative;
@@ -158,9 +158,10 @@ br  {
 
 .text  {
     font-family:'Raleway', sans-serif;
-    font-size:16px;
+    font-size:14.4px;
     text-align:left;
     color:black;
+    max-width:360px;
     margin:0 auto;
     padding:5px;
     line-height:1.7;
@@ -183,7 +184,7 @@ br  {
     }
     
     #hey-im-daniel  {
-        top:50%;
+        top:47%;
         padding:0px;
     }
     
@@ -206,6 +207,12 @@ br  {
     
     .container  {
         top:50px;
+        
+    }
+    
+    .headercontainer    {
+        width:18%;
+        
     }
     
     .text  {
@@ -218,27 +225,27 @@ br  {
     }
     
     #contact    {
-        top:50%;
+        top:47%;
         
     }
     
     #social-container    {
-        top:53%;
+        top:50%;
     }
      
 }
 
-@media screen and (max-width:742px) {
+@media screen and (max-width:739px) {
     #left-div   {
-        height:930px;
+        height:850px;
         
     }
     
 }
 
-@media screen and (max-width:667px) {
+@media screen and (max-width:665px) {
     #left-div   {
-        height:1200px;
+        height:1100px;
         top:-200px;
         
     }
@@ -247,11 +254,15 @@ br  {
         top:-200px;
     }
     
+    h2  {
+        top:2px;
+    }
+    
 }
 
-@media screen and (max-width:583px) {
+@media screen and (max-width:581px) {
     #left-div   {
-        height:1270px;
+        height:1200px;
     }
     
     h2  {
@@ -265,10 +276,33 @@ br  {
     
 }
 
-@media screen and (max-width:507px) {
+@media screen and (max-width:506px) {
     #left-div   {
-        height:1370px;
+        height:1270px;
+    }
+    
+    h2  {
+        top:6px;
+        
     }
     
 }
+
+@media screen and (max-width:432px) {
+    #left-div   {
+        height:1350px;
+        top:-450px;
+    }
+    
+    #right-div  {
+        top:-450px;
+    }
+    
+    h2  {
+        font-size:22px;
+        top:8px;
+    }
+    
+}
+
 
