@@ -167,13 +167,32 @@ br  {
     line-height:1.7;
 }
 
+.footer{
+    height:auto;
+    width:100%;
+    position:relative;
+    text-align: center;
+    margin:100 auto 0 auto;
+    
+}
+
 #copyright  {
     text-align:center;
-    margin:80px auto 20px auto;
+    margin:10px auto 20px auto;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     font-size: 12px;
     color:black;
+    position:relative;
+    top:50%;
+}
+
+#home {
+    width:50px;
+    margin:0 auto;
+    position:relative;
+    top:50%;
+    
 }
 
 @media screen and (max-width:1000px) {
