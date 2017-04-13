@@ -181,6 +181,7 @@ br  {
         width:100%;
         position:relative;
         padding:0px;
+        height:770px;
         min-height:770px;
         top:-100px;
         
@@ -237,7 +238,7 @@ br  {
     }
     
     h2  {
-        font-size:49px;
+        font-size:59px;
         text-align:left;
 
     }
