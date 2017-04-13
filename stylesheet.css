@@ -169,7 +169,7 @@ br  {
 
 #copyright  {
     text-align:center;
-    margin:80px auto 10px auto;
+    margin:80px auto 20px auto;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     font-size: 12px;
@@ -220,7 +220,7 @@ br  {
     
     .headercontainer    {
         width:90%;
-        margin:49px auto 22px auto;
+        margin:49px auto 15px auto;
         text-align:center;
         
     }
