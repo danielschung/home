@@ -31,10 +31,11 @@ a   {
 h1  {
     font-family:'Josefin Sans', sans-serif;
     font-size:45px;
-    font-weight:100;
+    font-weight:700;
     line-height:1.2;
     text-align:center;
     color:white;
+    font-style:normal;
     
 }
 
@@ -43,6 +44,7 @@ h2  {
     font-size:23px;
     text-align:right;
     position:relative;
+    
 }
 
 .container  {
@@ -71,6 +73,7 @@ br  {
     background-size:cover;
     background-repeat: no-repeat;
     padding:5% auto;
+    
 }
 
 #hey-im-daniel  {
@@ -177,7 +180,7 @@ br  {
 }
 
 #home {
-    font-size:200px;
+    font-size:100px;
     font-family:'Josefin Sans', sans-serif;
     margin:0px auto;
     position:relative;
