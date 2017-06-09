@@ -159,6 +159,17 @@ br  {
     margin:0px 0px 40px 0px;
 }
 
+#experience-container1, #experience-container2, #experience-container3  {
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+#experience-container1:hover, #experience-container2:hover, #experience-container3:hover {
+    background-color:lightgray;
+}
+
 .text  {
     font-family:'Raleway', sans-serif;
     font-size:14.4px;
@@ -168,6 +179,24 @@ br  {
     margin:0 auto;
     padding:5px;
     line-height:1.7;
+}
+
+
+#expand1, #expand2, #expand3 {
+    font-family:'Raleway', sans-serif;
+    font-size:10px;
+    text-align:left;
+    color:grey;
+    max-width:360px;
+    margin:0 auto;
+    padding:5px;
+    line-height:1.7;
+}
+
+#experience-text1, #experience-text2, #experience-text3 {
+    padding-left:30px;
+    padding-top:10px;
+    border-left:solid, 2px, black;
 }
 
 .footer{
