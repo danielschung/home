@@ -156,7 +156,7 @@ br  {
     float:right;
     display:inline-block;
     text-align: center;
-    margin:0px 0px 40px 0px;
+    margin:0px 0px 20px 0px;
 }
 
 #experience-container1, #experience-container2, #experience-container3  {
@@ -164,10 +164,6 @@ br  {
     -ms-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-}
-
-#experience-container1:hover, #experience-container2:hover, #experience-container3:hover {
-    background-color:lightgray;
 }
 
 .text  {
@@ -193,18 +189,12 @@ br  {
     line-height:1.7;
 }
 
-#experience-text1, #experience-text2, #experience-text3 {
-    padding-left:30px;
-    padding-top:10px;
-    border-left:solid, 2px, black;
-}
-
 .footer{
     height:auto;
     width:100%;
     position:relative;
     text-align: center;
-    margin:100 auto 0 auto;
+    margin:50 auto 0 auto;
     
 }
 
@@ -219,7 +209,7 @@ br  {
 
 #copyright  {
     text-align:center;
-    margin:35px auto 25px auto;
+    margin:0px auto 25px auto;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     font-size: 12px;
