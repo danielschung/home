@@ -1,4 +1,4 @@
-$(document).ready(function(start) {
+$(document).ready(function (start) {
 	$(".body-container").hide();
 });
 
@@ -16,7 +16,7 @@ $(window).on("load", function (loaded) {
 	$(".inner-container").animate({width:"100%"},1000,"swing");
 	$("p.intro-text").delay(1000).fadeIn(300);
 	$(".button").delay(1300).fadeTo(1000,100, "swing");
-	$(".social-container").delay(1700).fadeTo(500, 1.0, "swing", function(contentLoad) {
+	$(".social-container").delay(1700).fadeTo(500, 1.0, "swing", function (contentLoad) {
 		$(".content-text, .header-content-text").hide();
 		$(".content-container").show().animate({top:"-7px"}, 300, "swing");
 		$(".content-text, .header-content-text").fadeIn(300);
