@@ -29,24 +29,24 @@ section {
     font-family:Montserrat;
     src: url("fonts/Montserrat-Regular.woff") format("woff"),
          url("fonts/Montserrat-Regular.woff2") format("woff2"),
-         url("fonts/Montserrat-Regular.svg") format("svg"),
-         url("fonts/Montserrat-Regular.ttf") format("TrueType");
+         url("fonts/montserrat-regular-webfont.svg") format("svg"),
+         url("fonts/montserrat-regular-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family:Montserrat;
     src: url("fonts/Montserrat-Bold.woff") format("woff"),
          url("fonts/Montserrat-Bold.woff2") format("woff2"),
-         url("fonts/Montserrat-Bold.svg") format("svg"),
-         url("fonts/Montserrat-Bold.ttf") format("TrueType");
+         url("fonts/montserrat-bold-webfont.svg") format("svg"),
+         url("fonts/montserrat-bold-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family:Montserrat;
     src: url("fonts/Montserrat-UltraLight.woff") format("woff")
          url("fonts/Montserrat-UltraLight.woff2") format("woff2"),
-         url("fonts/Montserrat-UltraLight.svg") format("svg"),
-         url("fonts/Montserrat-Bold.ttf") format("TrueType");
+         url("fonts/montserrat-ultralight-webfont.svg") format("svg"),
+         url("fonts/montserrat-ultralight-webfont.ttf") format("truetype");
 }
 
 em {
