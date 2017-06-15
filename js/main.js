@@ -1,4 +1,4 @@
-$(document).ready(function (main) {
+$(window).on("load", function () {
 	$(".intro-text, .button, .social-container").hide();
 	$(".experience-text1").hide();
 	$(".experience-text2").hide();

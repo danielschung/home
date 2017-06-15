@@ -26,9 +26,9 @@ section {
 
 @font-face {
     font-family:Montserrat;
-    src: url("fonts/Montserrat-Bold.otf");
-    src: url("fonts/Montserrat-Regular.otf");
-    src: url("fonts/Montserrat-UltraLight.otf");
+    src: url("fonts/Montserrat-Bold.otf") format("opentype"),
+         url("fonts/Montserrat-Regular.otf") format("opentype"),
+         url("fonts/Montserrat-UltraLight.otf") format("opentype");
 }
 
 em {
