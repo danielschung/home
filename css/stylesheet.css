@@ -124,7 +124,6 @@ h1.intro-text {
     position:relative;
     margin:30px 20px;
     padding:10px;
-    height:auto;
     display:inline-block;
     width:90%;
 }
@@ -178,7 +177,7 @@ h1.content-text {
 }
 
 /*-------Responsive Mobile Design Code-------*/
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     .body-container {
         margin-top:-70px;
     }
@@ -226,14 +225,33 @@ h1.content-text {
     }
 
     .content-left {
-        width:20%;
+        width:100%;
+        text-align:left;
+    }
+
+    .content-text, h1.content-text {
+        font-size:25px;
     }
 
     .content-right {
-        width:75%;
-        max-width:800px;
+        width:100%;
+        float:left;
+        max-width:2000px;
+        padding-left:0px;
     }
-}
+
+    .experience-text1, .experience-text2, .experience-text3 {
+        color:black;
+        font-family:"Montserrat-UltraLight",sans-serif;
+        font-size:20px;
+        margin:0px 0px 0px 10px;
+        padding:10px 0px 10px 0px;
+    }
+
+    #expand1, #expand2, #expand3 {
+        font-size:15px;
+    }
+
 
 @media screen and (max-width:622px) {
     .body-container {
@@ -260,21 +278,6 @@ h1.content-text {
 
     .intro-container {
         top:340px;
-    }
-
-    .content-left {
-        width:100%;
-        text-align:left;
-    }
-
-    .content-right {
-        width:100%;
-
-    }
-
-    .content-text, h1.content-text {
-        font-size:25px;
-
     }
 
 }
