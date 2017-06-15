@@ -25,30 +25,6 @@ section {
     height:1000px;
 }
 
-@font-face {
-    font-family:Montserrat;
-    src: url("fonts/Montserrat-Regular.woff") format("woff"),
-         url("fonts/Montserrat-Regular.woff2") format("woff2"),
-         url("fonts/montserrat-regular-webfont.svg") format("svg"),
-         url("fonts/montserrat-regular-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family:Montserrat;
-    src: url("fonts/Montserrat-Bold.woff") format("woff"),
-         url("fonts/Montserrat-Bold.woff2") format("woff2"),
-         url("fonts/montserrat-bold-webfont.svg") format("svg"),
-         url("fonts/montserrat-bold-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family:Montserrat;
-    src: url("fonts/Montserrat-UltraLight.woff") format("woff")
-         url("fonts/Montserrat-UltraLight.woff2") format("woff2"),
-         url("fonts/montserrat-ultralight-webfont.svg") format("svg"),
-         url("fonts/montserrat-ultralight-webfont.ttf") format("truetype");
-}
-
 em {
     font-style: normal;
     font-weight: bold;
@@ -82,7 +58,8 @@ a {
 
 .intro-text {
     color:white;
-    font-family:"Montserrat-UltraLight",sans-serif;
+    font-family:"Montserrat",sans-serif;
+    font-weight:400;
     padding:20px 10px 0px 10px;
     max-width:500px;
     margin:0 auto;
@@ -91,10 +68,12 @@ a {
 
 h1.intro-text {
     font-size:30px;
+    font-weight:800;
 }
 
 .button {
-    font-family:"Montserrat-Regular", sans-serif;
+    font-family:"Montserrat", sans-serif;
+    font-weight:400;
     font-style:none;
     color:white;
     padding:13px 0px;
@@ -160,14 +139,16 @@ h1.intro-text {
 
 .content-text {
     color:black;
-    font-family:"Montserrat-UltraLight",sans-serif;
+    font-family:"Raleway",sans-serif;
+    font-weight:200;
     padding:10px 10px 0px 10px;
     font-size:15px;
 }
 
 .experience-text1, .experience-text2, .experience-text3 {
     color:black;
-    font-family:"Montserrat-UltraLight",sans-serif;
+    font-family:"Raleway",sans-serif;
+    font-weight:200;
     font-size:15px;
     margin:0px 0px 0px 10px;
     padding:10px 0px 10px 0px;
@@ -175,14 +156,16 @@ h1.intro-text {
 
 h1.content-text {
     color:black;
-    font-family:"Montserrat-Bold",sans-serif;
+    font-family:"Montserrat",sans-serif;
+    font-weight:800;
     padding:20px 10px 0px 10px;
     font-size:15px;
 }
 
 .header-content-text {
     color:black;
-    font-family:"Montserrat-Regular",sans-serif;
+    font-family:"Montserrat",sans-serif;
+    font-weight:400;
     padding:20px 10px 0px 10px;
     font-size:15px;
 }
@@ -253,7 +236,7 @@ h1.content-text {
 
     .experience-text1, .experience-text2, .experience-text3 {
         color:black;
-        font-family:"Montserrat-UltraLight",sans-serif;
+        font-family:"Montserrat",sans-serif;
         font-size:20px;
         margin:0px 0px 0px 10px;
         padding:10px 0px 10px 0px;
