@@ -24,15 +24,15 @@ $(window).on("load", function (loaded) {
 
 	/*-------Start Experience Clicking Functions-------*/
 	$(".content-inner-container").first().on("click", function() {
-		$(".experience-text1").slideToggle(400);
-		$("#expand1").slideToggle(400);
+		$(".experience-text1").slideToggle(200);
+		$("#expand1").slideToggle(200);
 	});
 	$(".content-inner-container").first().next().on("click", function() {
-		$(".experience-text2").slideToggle(400);
-		$("#expand2").slideToggle(400);
+		$(".experience-text2").slideToggle(200);
+		$("#expand2").slideToggle(200);
 	});
 	$(".content-inner-container").first().next().next().on("click", function() {
-		$(".experience-text3").slideToggle(400);
-		$("#expand3").slideToggle(400);
+		$(".experience-text3").slideToggle(200);
+		$("#expand3").slideToggle(200);
 	});
 });
