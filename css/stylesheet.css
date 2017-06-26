@@ -59,7 +59,7 @@ a {
 .intro-text {
     color:white;
     font-family:"Montserrat",sans-serif;
-    font-weight:400;
+    font-weight:300;
     padding:20px 10px 0px 10px;
     max-width:500px;
     margin:0 auto;
@@ -73,7 +73,7 @@ h1.intro-text {
 
 .button {
     font-family:"Montserrat", sans-serif;
-    font-weight:400;
+    font-weight:300;
     font-style:none;
     color:white;
     padding:13px 0px;
@@ -112,7 +112,7 @@ h1.intro-text {
     text-align:left;
     height:auto;
     position:relative;
-    margin:30px 20px;
+    margin:25px 0px;
     padding:10px;
     display:inline-block;
     width:90%;
@@ -165,7 +165,7 @@ h1.content-text {
 .header-content-text {
     color:black;
     font-family:"Montserrat",sans-serif;
-    font-weight:400;
+    font-weight:300;
     padding:20px 10px 0px 10px;
     font-size:15px;
 }
@@ -208,10 +208,6 @@ h1.content-text {
 
     .content-text, .header-content-text, h1.content-text {
         font-size:18px;
-    }
-
-    .content-container {
-        margin-top:50px;
     }
 
     .content-left {
