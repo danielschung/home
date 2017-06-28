@@ -16,7 +16,7 @@ body {
     overflow-x:hidden;
 }
 
-.body-container {
+.body-container1, .bodycontainer2 {
     height:100%;
     width:100%;
 }
@@ -45,6 +45,10 @@ a {
     background-size:cover;
     background-repeat: no-repeat;
     text-align:center;
+}
+
+.intro.scroll {
+    position:relative;
 }
 
 .intro-container {
@@ -112,7 +116,7 @@ h1.intro-text {
     text-align:left;
     height:auto;
     position:relative;
-    margin:25px 0px;
+    margin:20px 0px 0px 0px;
     padding:10px;
     display:inline-block;
     width:90%;
