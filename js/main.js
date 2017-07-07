@@ -22,6 +22,7 @@ $(window).on("load", function (loaded) {
 		$(".content-text, .header-content-text").fadeIn(300);
 	});
 
+
 	/*-------Start Experience Clicking Functions-------*/
 	$(".content-inner-container").first().on("click", function() {
 		$(".experience-text1").slideToggle(200);
