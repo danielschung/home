@@ -1,9 +1,11 @@
 $(document).ready(function (start) {
-	$(".body-container").hide();
+	$("body").hide();
+	$("body-container1").hide();
 });
 
 $(window).on("load", function (loaded) {
-	$(".body-container").show();
+	$("body").fadeIn(100);
+	$("body-container").fadeIn(100);
 	$(".intro-text, .button, .social-container").hide();
 	$(".experience-text1").hide();
 	$(".experience-text2").hide();
