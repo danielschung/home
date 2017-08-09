@@ -39,3 +39,15 @@ $(window).on("load", function (loaded) {
 		$("#expand3").slideToggle(200);
 	});
 });
+
+/*Refresh on Resize rules*/
+$(window).resize(function() {
+	location.reload();
+
+	var forceTop = $(document).ready(function() {
+		$(this).scrollTop(0);
+
+	forceTop();
+
+	});
+});
