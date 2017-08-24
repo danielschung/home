@@ -1,9 +1,6 @@
-$(document).ready(function (start) {
+$(window).on("load", function (loaded) {
 	$("body").hide();
 	$("body-container1").hide();
-});
-
-$(window).on("load", function (loaded) {
 	$("body").fadeIn(100);
 	$("body-container").fadeIn(100);
 	$(".intro-text, .button, .social-container").hide();
