@@ -196,6 +196,21 @@ h1.content-text {
         width:100%;
     }
 
+    .button {
+        width:300px;
+        margin:25px auto 25px auto;
+    }
+
+    .social-container {
+        margin:30px auto;
+    }
+
+    .social {
+        width:50px;
+        margin:0px 20px;
+
+    }
+
     .content {
         width:100%;
 
